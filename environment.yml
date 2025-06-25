@@ -37,7 +37,6 @@ dependencies:
   - cartopy
   - folium
   - gdal
-  - map-nl
   - geojson
   - pyproj
   - seaborn
