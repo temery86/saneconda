@@ -23,8 +23,10 @@ dependencies:
   - jupysql
   - duckdb
   - duckdb-engine
+  - category_encoders
   - arrow               
-  - python-dateutil    
+  - python-dateutil
+  - statsmodels
 
   # Visualization
   - plotly
@@ -35,13 +37,15 @@ dependencies:
   - cartopy
   - folium
   - gdal
+  - map-nl
   - geojson
   - pyproj
   - seaborn
   - hvplot
   - bokeh            
   - altair           
-  - panel      
+  - panel
+  - spreg
   - python-kaleido
 
   # Networks
@@ -53,6 +57,7 @@ dependencies:
   - lime
   - eli5
   - shap
+  - esda
   - imbalanced-learn
   - interpret
   - optuna
@@ -64,15 +69,20 @@ dependencies:
   - dowhy
   - causalml 
   - causal-learn
+  - missingno
   - pgmpy 
   - pymc
   - numpyro
   - blackjax 
   - nutpie
+  - libpysal
 
   # NLP and text
   - nltk              
-  - spacy             
+  - spacy
+  - flask
+  - transformers
+  - pytorch
 
   # SQL / DB Interface
   - sqlalchemy        
@@ -89,7 +99,3 @@ dependencies:
   - beautifulsoup4    
   - lxml              
 
-  # Pip-only packages
-  - pip
-  - pip:
-      - metasyn  # synthetic data
