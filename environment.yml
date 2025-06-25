@@ -24,7 +24,7 @@ dependencies:
   - duckdb
   - duckdb-engine
   - category_encoders
-  - arrow               
+  - arrow
   - python-dateutil
   - statsmodels
 
@@ -41,8 +41,8 @@ dependencies:
   - pyproj
   - seaborn
   - hvplot
-  - bokeh            
-  - altair           
+  - bokeh
+  - altair
   - panel
   - spreg
   - python-kaleido
@@ -60,41 +60,41 @@ dependencies:
   - imbalanced-learn
   - interpret
   - optuna
-  - xgboost           
-  - lightgbm          
-  - catboost          
-  - joblib            
-  - mlflow            
+  - xgboost
+  - lightgbm
+  - catboost
+  - joblib
+  - mlflow
   - dowhy
-  - causalml 
+  - causalml
   - causal-learn
   - missingno
-  - pgmpy 
+  - pgmpy
   - pymc
   - numpyro
-  - blackjax 
+  - blackjax
   - nutpie
   - libpysal
 
   # NLP and text
-  - nltk              
+  - nltk
   - spacy
   - flask
   - transformers
   - pytorch
 
   # SQL / DB Interface
-  - sqlalchemy        
+  - sqlalchemy
 
   # Data validation and config
-  - pandera           
-  - pydantic          
+  - pandera
+  - pydantic
 
   # Parallel / performance
-  - multiprocess      
-  - threadpoolctl     
+  - multiprocess
+  - threadpoolctl
 
-  # File/HTML/PDF parsing 
-  - beautifulsoup4    
-  - lxml              
+  # File/HTML/PDF parsing
+  - beautifulsoup4
+  - lxml
 
